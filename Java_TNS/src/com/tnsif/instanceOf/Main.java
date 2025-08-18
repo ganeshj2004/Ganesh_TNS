@@ -15,6 +15,8 @@ public class Main {
         // Check if p1 is a Student
         if (p1 instanceof Student) {
             System.out.println("p1 is a Student");
+        }else {
+            System.out.println("p2 is NOT a Student");
         }
 
         // Check if p2 is a Student
